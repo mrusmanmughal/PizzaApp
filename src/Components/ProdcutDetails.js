@@ -33,6 +33,9 @@ const ProdcutDetails = () => {
           </div>
         </div>
       </div>
+      <div className="back_Btn">
+        <i class="bi bi-arrow-left-circle-fill text-warning h1  px-5"></i>
+      </div>
 
       {/* model Starts */}
 

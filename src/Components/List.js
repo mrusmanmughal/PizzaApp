@@ -4,8 +4,8 @@ import pizza from "../Assets/b.jpg";
 import { Link } from "react-router-dom";
 import { listfake } from "../FakeData";
 import MainPageCard from "./MainPageCard/MainPageCard";
+import axios from "axios";
 const List = () => {
-  console.log(listfake);
   return (
     <>
       <div className="yellow vh-100">
@@ -21,6 +21,10 @@ const List = () => {
             );
           })}
         </div>
+      </div>
+
+      <div className="back_Btn">
+        <i class="bi bi-arrow-left-circle-fill text-warning h1  px-5"></i>
       </div>
     </>
   );

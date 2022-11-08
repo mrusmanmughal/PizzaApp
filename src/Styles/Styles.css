@@ -61,3 +61,14 @@ video {
   top: 5px;
   right: 210px;
 }
+/* cart button  */
+.cartbtn {
+  cursor: pointer;
+}
+.back_Btn {
+  position: fixed;
+  z-index: 999;
+  bottom: 30px;
+
+  cursor: pointer;
+}

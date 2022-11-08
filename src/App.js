@@ -3,12 +3,7 @@ import "./Styles/Styles.css";
 import { Link } from "react-router-dom";
 import "./App.css";
 import videoo from "./Assets/fit.mp4";
-import { BrowserRouter } from "react-router-dom";
-import { Routes, Route } from "react-router-dom";
-import List from "./Components/List";
-import MainPage from "./Components/MainPage";
-import ProdcutDetails from "./Components/ProdcutDetails";
-import Navbar from "./Components/Navbar/Navbar";
+
 const App = () => {
   return (
     <>
