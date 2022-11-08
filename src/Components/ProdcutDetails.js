@@ -16,14 +16,14 @@ const ProdcutDetails = () => {
           </div>
           <div className="col-md-8 px-5 py-2">
             <h2> Zinger burgeer</h2>
-            <h5>
+            <h6 className="text-secondary">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.{" "}
               <br></br> Eveniet, reprehenderit.
-            </h5>
+            </h6>
             <h3 className="fw-bold"> Rs .200</h3>
             <div className="d-flex">
               <button
-                className="btn btn-danger mt-5"
+                className="btn fw-bold btn-danger mt-5 "
                 data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop"
               >

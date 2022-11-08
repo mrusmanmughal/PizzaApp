@@ -23,6 +23,9 @@ const Navbar = () => {
             <button
               class="navbar-toggler border border-2 border-danger mt-2"
               type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
             >
               <i class="bi bi-list h2 text-danger"></i>
             </button>
@@ -99,6 +102,35 @@ const Navbar = () => {
               Checkout
             </button>
           </div>
+        </div>
+      </div>
+
+      {/* offCanvas */}
+
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">
+            <img src={Logo} alt="" width="70px" height="70px" />
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul>
+            <li>Home</li>
+            <li>Pizza</li>
+            <li>Burgers</li>
+            <li>Deserts</li>
+          </ul>
         </div>
       </div>
     </>

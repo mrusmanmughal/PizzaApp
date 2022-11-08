@@ -13,22 +13,22 @@ import ProdcutDetails from "./Components/ProdcutDetails";
 import Navbar from "./Components/Navbar/Navbar";
 import Routing from "./Routing";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import Footer from "./Components/Footer/Footer";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-      </Routes>
-      <Navbar />
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />} />
+    </Routes>
+    <Navbar />
 
-      <Routes>
-        <Route path="/home" element={<MainPage />} />
-        <Route path="/products" element={<List />} />
-        <Route path="/product-details" element={<ProdcutDetails />} />
-      </Routes>
-    </BrowserRouter>
-  </React.StrictMode>
+    <Routes>
+      <Route path="/home" element={<MainPage />} />
+      <Route path="/products" element={<List />} />
+      <Route path="/product-details" element={<ProdcutDetails />} />
+    </Routes>
+    {/* <Footer /> */}
+  </BrowserRouter>
 );
 
 reportWebVitals();

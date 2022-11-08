@@ -38,7 +38,7 @@ export const MainCard = ({ name, img, url }) => {
                   {name}
                 </h3>
               </div>
-              <div className=" text-white  text-center h6 bg-warning  py-3 border rounded-pill">
+              <div className=" text-white  text-center h6 bg-warning  py-3   rounded-pill">
                 Click Here
               </div>
             </div>
