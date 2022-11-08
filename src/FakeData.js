@@ -1,27 +1,36 @@
+import pizza from "./Assets/pizza.jpg";
+import desirt from "./Assets/desirt.png";
+import coldDrink from "./Assets/colddrink.jpg";
+import Burger from "./Assets/b.jpg";
+
 const fakedata = [
   {
-    Name: " Burger ",
+    Name: " Burger's ",
     describe:
       " Best Chesies burger Ever Make in Pakistan With Extra Topping as Well",
     url: "/products",
+    img: Burger,
   },
   {
-    Name: " Burger ",
+    Name: " Pizza's ",
     describe:
       " Best Chesies burger Ever Make in Pakistan With Extra Topping as Well",
     url: "/products",
+    img: pizza,
   },
   {
-    Name: " Burger ",
+    Name: " Desert's ",
     describe:
       " Best Chesies burger Ever Make in Pakistan With Extra Topping as Well",
     url: "/products",
+    img: desirt,
   },
   {
-    Name: " Burger ",
+    Name: " Cold Drinks ",
     describe:
       " Best Chesies burger Ever Make in Pakistan With Extra Topping as Well",
     url: "/products",
+    img: coldDrink,
   },
 ];
 

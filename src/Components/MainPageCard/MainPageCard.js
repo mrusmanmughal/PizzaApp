@@ -9,7 +9,7 @@ const MainPageCard = ({ name, dec, img, url }) => {
           <div className="">
             <img src={img} className="img-thumbnail" />
             <div>
-              <h3 className="text-center py-2 text-dark">{name}</h3>
+              <h4 className=" fw-bold text-center py-2 text-dark ">{name}</h4>
             </div>
             <p className="card-text text-dark ">{dec}</p>
           </div>
